@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="submit" method="post">
+    
+        <label for="email">Email :</label>
+        <input type="email" name="email" placeholder="enter email">
+    
+    </form>
 </body>
 </html>
