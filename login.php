@@ -10,6 +10,9 @@
         if(empty($_POST('password'))){
             $errors['password'] = 'please enter your password';
         }
+        if(empty($errors)){
+            
+        }
     }
 
 ?>
