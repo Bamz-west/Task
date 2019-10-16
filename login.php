@@ -1,3 +1,16 @@
+<?
+
+    $errors = [];
+
+    if(array_key_exists('submit', $_POST)) {
+
+        
+    }
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
