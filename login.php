@@ -4,7 +4,12 @@
 
     if(array_key_exists('submit', $_POST)) {
 
-        
+        if(empty($_POST('email'))){
+            $errors['email'] = 'please enter your email';
+        }
+        if(empty($_POST('password'))){
+            $errors['password'] = 'please enter your password';
+        }
     }
 
 ?>
