@@ -11,6 +11,11 @@
     
         <label for="email">Email :</label>
         <input type="email" name="email" placeholder="enter email">
+
+        <label for="password">Password :</label>
+        <input type="text" name="password" placeholder="enter password">
+
+        <input type="submit" name="submit">
     
     </form>
 </body>
